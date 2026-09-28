@@ -14,6 +14,11 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "MINT | Management & Information Network Team",
   description: "Student club proposal and constitution for MINT under the School of Information Technology, RGPV Bhopal.",
+  icons: {
+    icon: "/logo.png",
+    shortcut: "/logo.png",
+    apple: "/logo.png",
+  },
 };
 
 export default function RootLayout({ children }) {
